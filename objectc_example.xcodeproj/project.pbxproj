@@ -15,6 +15,17 @@
 		818E85762834D12B00767D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818E85752834D12B00767D02 /* Assets.xcassets */; };
 		818E85792834D12B00767D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818E85772834D12B00767D02 /* LaunchScreen.storyboard */; };
 		818E857C2834D12B00767D02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E857B2834D12B00767D02 /* main.m */; };
+		81D3C26328502A4D001B3205 /* DefaultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C26228502A4D001B3205 /* DefaultController.m */; };
+		81D3C26628502EF0001B3205 /* SwipeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C26528502EF0001B3205 /* SwipeController.m */; };
+		81D3C26928503782001B3205 /* TotalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C26828503782001B3205 /* TotalController.m */; };
+		81D3C26C285038CB001B3205 /* SubscriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C26B285038CB001B3205 /* SubscriptionController.m */; };
+		81D3C26F285038DE001B3205 /* SubscriptionBootpayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C26E285038DE001B3205 /* SubscriptionBootpayController.m */; };
+		81D3C2722850391C001B3205 /* AuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C2712850391C001B3205 /* AuthenticationController.m */; };
+		81D3C2752850392A001B3205 /* BioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C2742850392A001B3205 /* BioController.m */; };
+		81D3C2782850393E001B3205 /* PasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C2772850393E001B3205 /* PasswordController.m */; };
+		81D3C27B2850394B001B3205 /* PasswordUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C27A2850394B001B3205 /* PasswordUIController.m */; };
+		81D3C27F28506221001B3205 /* BootpayRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C27E28506221001B3205 /* BootpayRest.m */; };
+		81D3C28228509070001B3205 /* WebAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D3C28128509070001B3205 /* WebAppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,29 @@
 		818E85782834D12B00767D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818E857A2834D12B00767D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		818E857B2834D12B00767D02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81D3C26128502A4D001B3205 /* DefaultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultController.h; sourceTree = "<group>"; };
+		81D3C26228502A4D001B3205 /* DefaultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultController.m; sourceTree = "<group>"; };
+		81D3C26428502EF0001B3205 /* SwipeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeController.h; sourceTree = "<group>"; };
+		81D3C26528502EF0001B3205 /* SwipeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeController.m; sourceTree = "<group>"; };
+		81D3C26728503782001B3205 /* TotalController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TotalController.h; sourceTree = "<group>"; };
+		81D3C26828503782001B3205 /* TotalController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TotalController.m; sourceTree = "<group>"; };
+		81D3C26A285038CB001B3205 /* SubscriptionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscriptionController.h; sourceTree = "<group>"; };
+		81D3C26B285038CB001B3205 /* SubscriptionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubscriptionController.m; sourceTree = "<group>"; };
+		81D3C26D285038DE001B3205 /* SubscriptionBootpayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscriptionBootpayController.h; sourceTree = "<group>"; };
+		81D3C26E285038DE001B3205 /* SubscriptionBootpayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubscriptionBootpayController.m; sourceTree = "<group>"; };
+		81D3C2702850391C001B3205 /* AuthenticationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationController.h; sourceTree = "<group>"; };
+		81D3C2712850391C001B3205 /* AuthenticationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationController.m; sourceTree = "<group>"; };
+		81D3C2732850392A001B3205 /* BioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BioController.h; sourceTree = "<group>"; };
+		81D3C2742850392A001B3205 /* BioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioController.m; sourceTree = "<group>"; };
+		81D3C2762850393E001B3205 /* PasswordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordController.h; sourceTree = "<group>"; };
+		81D3C2772850393E001B3205 /* PasswordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordController.m; sourceTree = "<group>"; };
+		81D3C2792850394B001B3205 /* PasswordUIController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordUIController.h; sourceTree = "<group>"; };
+		81D3C27A2850394B001B3205 /* PasswordUIController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordUIController.m; sourceTree = "<group>"; };
+		81D3C27D28506221001B3205 /* BootpayRest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BootpayRest.h; sourceTree = "<group>"; };
+		81D3C27E28506221001B3205 /* BootpayRest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootpayRest.m; sourceTree = "<group>"; };
+		81D3C28028509070001B3205 /* WebAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebAppController.h; sourceTree = "<group>"; };
+		81D3C28128509070001B3205 /* WebAppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebAppController.m; sourceTree = "<group>"; };
+		81D3C283285099FC001B3205 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A5C8BAD4131DC4440E207B86 /* Pods-objectc_example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objectc_example.debug.xcconfig"; path = "Target Support Files/Pods-objectc_example/Pods-objectc_example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,19 +111,50 @@
 		818E85682834D12A00767D02 /* objectc_example */ = {
 			isa = PBXGroup;
 			children = (
+				81D3C27C285061EB001B3205 /* deprecated */,
 				818E85692834D12A00767D02 /* AppDelegate.h */,
 				818E856A2834D12A00767D02 /* AppDelegate.m */,
 				818E856C2834D12A00767D02 /* SceneDelegate.h */,
 				818E856D2834D12A00767D02 /* SceneDelegate.m */,
+				81D3C26428502EF0001B3205 /* SwipeController.h */,
+				81D3C26528502EF0001B3205 /* SwipeController.m */,
 				818E856F2834D12A00767D02 /* ViewController.h */,
 				818E85702834D12A00767D02 /* ViewController.m */,
+				81D3C26128502A4D001B3205 /* DefaultController.h */,
+				81D3C26228502A4D001B3205 /* DefaultController.m */,
+				81D3C26728503782001B3205 /* TotalController.h */,
+				81D3C26828503782001B3205 /* TotalController.m */,
+				81D3C26A285038CB001B3205 /* SubscriptionController.h */,
+				81D3C26B285038CB001B3205 /* SubscriptionController.m */,
+				81D3C26D285038DE001B3205 /* SubscriptionBootpayController.h */,
+				81D3C26E285038DE001B3205 /* SubscriptionBootpayController.m */,
+				81D3C2702850391C001B3205 /* AuthenticationController.h */,
+				81D3C2712850391C001B3205 /* AuthenticationController.m */,
+				81D3C2732850392A001B3205 /* BioController.h */,
+				81D3C2742850392A001B3205 /* BioController.m */,
+				81D3C2762850393E001B3205 /* PasswordController.h */,
+				81D3C2772850393E001B3205 /* PasswordController.m */,
+				81D3C2792850394B001B3205 /* PasswordUIController.h */,
+				81D3C27A2850394B001B3205 /* PasswordUIController.m */,
+				81D3C28028509070001B3205 /* WebAppController.h */,
+				81D3C28128509070001B3205 /* WebAppController.m */,
 				818E85722834D12A00767D02 /* Main.storyboard */,
 				818E85752834D12B00767D02 /* Assets.xcassets */,
 				818E85772834D12B00767D02 /* LaunchScreen.storyboard */,
 				818E857A2834D12B00767D02 /* Info.plist */,
 				818E857B2834D12B00767D02 /* main.m */,
+				81D3C283285099FC001B3205 /* README.md */,
 			);
 			path = objectc_example;
+			sourceTree = "<group>";
+		};
+		81D3C27C285061EB001B3205 /* deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				81D3C27D28506221001B3205 /* BootpayRest.h */,
+				81D3C27E28506221001B3205 /* BootpayRest.m */,
+			);
+			path = deprecated;
 			sourceTree = "<group>";
 		};
 		B100169CBF5EFDF75C5A8DCB /* Frameworks */ = {
@@ -112,6 +177,7 @@
 				818E85632834D12A00767D02 /* Frameworks */,
 				818E85642834D12A00767D02 /* Resources */,
 				4A1EC2EB4DE940BFDE4F59C2 /* [CP] Embed Pods Frameworks */,
+				EFFEECD4D60EFE70729A42DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +273,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-objectc_example/Pods-objectc_example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EFFEECD4D60EFE70729A42DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-objectc_example/Pods-objectc_example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-objectc_example/Pods-objectc_example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-objectc_example/Pods-objectc_example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -216,8 +299,19 @@
 			files = (
 				818E85712834D12A00767D02 /* ViewController.m in Sources */,
 				818E856B2834D12A00767D02 /* AppDelegate.m in Sources */,
+				81D3C26F285038DE001B3205 /* SubscriptionBootpayController.m in Sources */,
+				81D3C26928503782001B3205 /* TotalController.m in Sources */,
+				81D3C27B2850394B001B3205 /* PasswordUIController.m in Sources */,
+				81D3C26628502EF0001B3205 /* SwipeController.m in Sources */,
+				81D3C26C285038CB001B3205 /* SubscriptionController.m in Sources */,
+				81D3C2782850393E001B3205 /* PasswordController.m in Sources */,
 				818E857C2834D12B00767D02 /* main.m in Sources */,
+				81D3C2722850391C001B3205 /* AuthenticationController.m in Sources */,
 				818E856E2834D12A00767D02 /* SceneDelegate.m in Sources */,
+				81D3C2752850392A001B3205 /* BioController.m in Sources */,
+				81D3C27F28506221001B3205 /* BootpayRest.m in Sources */,
+				81D3C28228509070001B3205 /* WebAppController.m in Sources */,
+				81D3C26328502A4D001B3205 /* DefaultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
